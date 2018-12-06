@@ -132,7 +132,7 @@ main (int argc, char **argv)
 	 * Values that we need later
 	 */
 
-	connection = xmmsc_init ("tutorial1");
+	connection = xmmsc_init ("tutorial5");
 	if (!connection) {
 		fprintf (stderr, "OOM!\n");
 		exit (EXIT_FAILURE);
