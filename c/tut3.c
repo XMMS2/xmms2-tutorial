@@ -17,6 +17,7 @@
  */
 
 #include <stdlib.h>
+#include <stdio.h>
 
 /* include xmmsclient header */
 #include <xmmsclient/xmmsclient.h>
