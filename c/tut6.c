@@ -16,6 +16,7 @@
  */
 
 #include <stdlib.h>
+#include <stdio.h>
 
 /* include xmmsclient header */
 #include <xmmsclient/xmmsclient.h>
@@ -89,7 +90,7 @@ main (int argc, char **argv)
 	 * normal. Read up on this in earlier
 	 * tutorials if you need.
 	 */
-	connection = xmmsc_init ("tutorial6");
+	connection = xmmsc_init ("tutorial7");
 	if (!connection) {
 		fprintf (stderr, "OOM!\n");
 		exit (EXIT_FAILURE);
